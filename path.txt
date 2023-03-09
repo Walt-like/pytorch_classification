@@ -1,0 +1,12 @@
+./sample_files/imgs/cat/0.jpg
+./sample_files/imgs/cat/1.jpg
+./sample_files/imgs/cat/2.jpg
+./sample_files/imgs/cat/3.jpg
+./sample_files/imgs/cat/4.jpg
+./sample_files/imgs/cat/5.jpg
+./sample_files/imgs/dog/0.jpg
+./sample_files/imgs/dog/1.jpg
+./sample_files/imgs/dog/2.jpg
+./sample_files/imgs/dog/3.jpg
+./sample_files/imgs/dog/4.jpg
+./sample_files/imgs/dog/5.jpg
