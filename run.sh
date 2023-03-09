@@ -3,8 +3,9 @@ TIME=$(date "+%Y-%m-%d-%H-%M-%S")
 
 
 OUTPUT_PATH=./outputs
-TRAIN_LIST=/home/lxztju/pytorch_classification/sample_files/imgs/listfile.txt
-VAL_LIST=/home/lxztju/pytorch_classification/sample_files/imgs/listfile.txt
+TRAIN_LIST=./sample_files/imgs/path.txt
+VAL_LIST=./sample_files/imgs/path.txt
+
 
 train
  CUDA_VISIBLE_DEVICES=0,1,2,3 \
