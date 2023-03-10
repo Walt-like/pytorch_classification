@@ -22,7 +22,8 @@ VAL_LIST=./sample_files/imgs/path.txt
     
     
  CUDA_VISIBLE_DEVICES=0,1,2,3 \
- python3 -u -m torch.distributed.launch --nproc_per_node 1  ./tools/evaluation.py \
+# python3 -u -m torch.distributed.launch --nproc_per_node 1  ./tools/evaluation.py \
+ python3  ./tools/evaluation.py \
      --model_name=resnet18 \
      --batch-size 64  -j 4 \
      --output=$OUTPUT_PATH/$TIME \
